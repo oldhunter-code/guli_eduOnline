@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/guli_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli_parent/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli_parent/common/common_utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli_parent/common/service_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli_parent/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guli_parent/service/service_eduManager" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

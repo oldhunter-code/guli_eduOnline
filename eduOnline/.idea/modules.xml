@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/common/common.iml" filepath="$PROJECT_DIR$/guli_parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/common/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/guli_parent/common/common_utils/common_utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/eduOnline.iml" filepath="$PROJECT_DIR$/.idea/eduOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/guli_parent.iml" filepath="$PROJECT_DIR$/guli_parent/guli_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/service/service.iml" filepath="$PROJECT_DIR$/guli_parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/common/service_base/service_base.iml" filepath="$PROJECT_DIR$/guli_parent/common/service_base/service_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent/service/service_eduManager/service_eduManager.iml" filepath="$PROJECT_DIR$/guli_parent/service/service_eduManager/service_eduManager.iml" />
     </modules>
   </component>
 </project>

@@ -33,18 +33,11 @@ public class EduTeacherController {
   @GetMapping("findAll")
     public R findAllTeacher(){
       List<EduTeacher> list = teacherService.list(null);
-
-      try {
-         int i=1/0;
-      } catch (Exception e) {
-          e.printStackTrace();
-          throw new MyException(20001,"执行了自定义异常");
-      }
       return R.ok().data("items",list);
   }
 
     @ApiOperation(value = "逻辑删除讲师")
-    @DeleteMapping("{id}") //delete标签 访问路径为 localhost:8081/eduManage/delete/1
+    @DeleteMapping("{id}") //delete标签 访问路径为 localhost:8081/eduManager/delete/1
     public R removeTeacher(@PathVariable String id) {
         boolean flag = teacherService.removeById(id);
         if (flag){
